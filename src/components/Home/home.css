@@ -1,0 +1,137 @@
+body{
+    background-image: url('../../assets/binaryBg.png');
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background-color: rgba(23, 28, 33, 0.8);}
+   
+  ::-webkit-scrollbar-thumb {
+    background: #A8CED0;
+    transition:0.5s;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+        background: #b4d6d8; 
+      cursor:grab;
+  }
+.main{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.main .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .timeSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .timeSec .span{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #A8CED0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.left .timeSec .clock{
+    padding: 20px;
+}
+.left .dateSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .dateSec .todayDate{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.left .dateSec .todayDate span{
+    color: #A8CED0;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.left .dateSec .todayDate .day, .month, .year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.left .worldMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .worldMap .mapSvg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.left .worldMap .mapSvg img{
+    max-width: 250px;
+}
+.left .commandDirectory{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+}
+.left .commandDirectory img{
+    max-width: 90%;
+}
+.left .commandDirectory .commandList{
+    position: absolute;
+    color: #A8CED0;
+    text-shadow: 0 0 15px #A8CED0;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+.left .commandDirectory .commandList ul li{
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 30;
+}
+.main .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.main .right .terminalDivider{
+    padding-bottom: 20px;
+}
+.main .right .terminalDivider .terminalDividerSpan{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    color: #A8CED0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 15px;   
+}

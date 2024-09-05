@@ -1,0 +1,36 @@
+.terminal-container {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border: 1px solid #333;
+  width: 90%;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.terminal-header {
+  margin-bottom: 10px;
+  white-space: pre-wrap; 
+}
+
+.terminal-path {
+  color: #A8CED0; 
+}
+
+.terminal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-command {
+  margin-bottom: 5px;
+}
+
+.terminal-input {
+  border: none;
+  background: transparent;
+  color: #A8CED0;
+  width: 100%;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+}

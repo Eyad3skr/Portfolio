@@ -1,0 +1,89 @@
+body {
+    background-color: #0D1015;
+    font-family: 'IBM';
+    margin: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+    overflow: hidden;
+  }
+  
+  @font-face {
+    font-family: 'IBM';
+    src: url('../../fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'BigShoulders';
+    src: url('../../fonts/Big_Shoulders_Text/BigShouldersText-VariableFont_wght.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .full-page {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .binaryBg {
+    color: #a8ced0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: 0.04; /* Adjust the opacity */
+    z-index: -1; /* Ensure it's behind other content */
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  @keyframes scroll {
+    from { transform: translateY(0); }
+    to { transform: translateY(-100%); }
+  }
+  
+  .main {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute; /* Ensures it's above the background */
+  }
+  
+  .main .mainLeft {
+    padding: 40px;
+    font-size: 150px;
+    font-weight: 743;
+    color: #A8CED0;
+  }
+  
+  .main .mainLeft h1{
+    font-family: 'BigShoulders';
+    text-shadow: rgba(168,206,208,0.9) 0px 0px 30px;
+  }
+  
+  .main .mainRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    gap: 10px; /* Adds space between items */
+    color: #ffffff;
+  }
+  .main .mainRight p{
+    line-height: 30px;
+  }
+  
+  .main .mainRight Link{
+    cursor: pointer;
+    padding: 12px;
+    border: 1px solid #A8CED0;
+    color: #A8CED0;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .main .mainRight Link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
