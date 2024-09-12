@@ -14,7 +14,7 @@ function AboutMe(){
                 <h1>Eyad Ibrahim</h1>
                 <span>Welcome to by personal website.</span>
                 <p>I have created this website to feel like a game/sci-fi interface. All text inside tries to reflect this. <br/> You will find ‘achievements’ or ‘quests’ that show the progress in my professional life and are related to what I am working on.</p>
-                <a href="#">Explore CV [Enter]</a>
+                <a href="https://www.google.com">Explore CV [Enter]</a>
             </div>
             <div className={styles.skillsSlider}>
                 <img src={skillsBorder} alt="skills border"/>
