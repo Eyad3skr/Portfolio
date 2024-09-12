@@ -1,0 +1,29 @@
+.slider * {
+  background-color: transparent !important;
+}
+.slider {
+  position: absolute;
+  top: 100px;
+  background-color: transparent;
+}
+
+.slider .rsis-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the slider without distortion */
+}
+
+.slider .rsis-nav {
+  background-color: transparent !important; /* Makes arrows transparent */
+}
+
+.slider .rsis-bullets .rsis-bullet {
+  background-color: transparent !important; /* Makes bullet background transparent */
+}
+
+.slider .rsis-bullets .rsis-bullet.rsis-selected {
+  background-color: #A8CED0 !important; /* Change color for active bullet */
+}

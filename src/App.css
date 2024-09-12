@@ -11,6 +11,6 @@
   }
   
   ::-webkit-scrollbar-thumb:hover {
-        background: #b4d6d8; 
+      background: #b4d6d8; 
       cursor:grab;
   }

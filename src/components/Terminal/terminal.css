@@ -1,36 +1,54 @@
-.terminal-container {
-  background-color: transparent;
-  color: white;
-  padding: 10px;
-  border: 1px solid #333;
-  width: 90%;
-  height: 300px;
-  overflow-y: auto;
+@font-face {
+  font-family: 'IBM';
+  src: url('../../fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.terminal-header {
+.terminalContainer {
+  font-family: 'IBM';
+  width: 100%;
+  background-image: url('../../assets/TerminalBorder.svg');
+  background-size: 94%;
+  background-repeat: no-repeat;
+  padding: 40px;
+  color: #A8CED0;
+  height: 500px; /* This ensures the container has a fixed height */
+  display: flex;
+  flex-direction: column; /* Stacks terminal content and input */
+}
+
+.terminalHeader {
+  font-size: 14px;
   margin-bottom: 10px;
-  white-space: pre-wrap; 
 }
 
-.terminal-path {
-  color: #A8CED0; 
+.terminalPath {
+  font-weight: bold;
 }
 
-.terminal-content {
+.terminalContent {
+  flex-grow: 1; /* Takes up the remaining space */
+  overflow-y: auto; /* Enables vertical scrolling */
+  overflow-x: hidden; /* Disables horizontal scrolling */;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
+  max-height: calc(100% - 200px); 
 }
 
-.terminal-command {
+.terminalCommand {
+  font-size: 14px;
+  color: #A8CED0;
   margin-bottom: 5px;
 }
 
-.terminal-input {
-  border: none;
-  background: transparent;
-  color: #A8CED0;
+.terminalInput {
   width: 100%;
+  background: none;
+  border: none;
+  color: #A8CED0;
+  font-size: 14px;
   outline: none;
-  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
 }

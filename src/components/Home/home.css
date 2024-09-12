@@ -19,16 +19,18 @@ body{
   }
 .main{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     flex-direction: row;
     width: 100%;
+    gap: 350px
 }
 .main .left{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: scale(0.9);
 }
 .left .timeSec{
     display: flex;
@@ -37,7 +39,7 @@ body{
     flex-direction: column;
 }
 .left .timeSec .span{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,6 +47,7 @@ body{
     color: #A8CED0;
     font-weight: bold;
     font-size: 12px;
+    max-height: 10px;
 }
 .left .timeSec .clock{
     padding: 20px;
@@ -105,7 +108,7 @@ body{
     position: absolute;
     color: #A8CED0;
     text-shadow: 0 0 15px #A8CED0;
-    margin-right: 180px;
+    margin-right: 100px;
     margin-top: 20px;
 }
 .left .commandDirectory .commandList ul li{
@@ -123,6 +126,14 @@ body{
 .main .right .terminalDivider{
     padding-bottom: 20px;
 }
+
+.main .right .terminal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+}
 .main .right .terminalDivider .terminalDividerSpan{
     width: 96%;
     display: flex;
@@ -134,4 +145,5 @@ body{
     font-weight: bold;
     font-size: 12px;
     margin-left: 15px;   
+    max-height: 5px;
 }
