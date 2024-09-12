@@ -8,7 +8,7 @@ function AboutMe(){
         <div className={styles.aboutContainer}>
         <div className={styles.main}>
             <div className={styles.myImg}>
-                <img src={Halo}/>
+                <img src={Halo} alt="Halo"/>
             </div>
             <div className={styles.content}>
                 <h1>Eyad Ibrahim</h1>
@@ -17,8 +17,8 @@ function AboutMe(){
                 <a href="#">Explore CV [Enter]</a>
             </div>
             <div className={styles.skillsSlider}>
-                <img src={skillsBorder}/>
-                <img src={skillsGrid}/>
+                <img src={skillsBorder} alt="skills border"/>
+                <img src={skillsGrid} alt="skills grid"/>
                 <SkillSlider/>
             </div>
         </div>
