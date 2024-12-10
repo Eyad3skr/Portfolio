@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/portfolio-project.git
+   git clone https://github.com/Eyad3skr/Portfolio
    cd portfolio-project
    ```
 
