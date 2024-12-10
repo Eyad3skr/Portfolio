@@ -48,7 +48,7 @@ To run this project locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Eyad3skr/Portfolio
-   cd portfolio-project
+   cd src
    ```
 
 2. **Install Dependencies**:
